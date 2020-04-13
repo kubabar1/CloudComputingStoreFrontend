@@ -1,0 +1,34 @@
+#nav-bar {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: solid;
+  border-image-slice: 1;
+  border-width: 3px;
+  border-image-source: linear-gradient(to left, #4d5dfb, #08c8f6);
+
+  .nav-item-stylization {
+    color: #4d5dfb;
+    text-decoration: none;
+    min-width: 150px;
+    text-align: center;
+  }
+
+  .nav-item-stylization:hover {
+    color: #7f8ffe;
+    text-decoration: none;
+    font-weight: 700;
+    min-width: 150px;
+    text-align: center;
+  }
+
+  .link-stylization {
+    display: block;
+    padding: 0.5rem 1rem;
+  }
+
+  .link-stylization:hover {
+    text-decoration: none;
+  }
+}

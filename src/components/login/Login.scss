@@ -1,0 +1,71 @@
+#login-container {
+  background-image: url('https://wallpaperaccess.com/full/104815.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  height: 100%;
+  align-content: center;
+
+  input:focus{
+    outline: 0 0 0 0  !important;
+    box-shadow: 0 0 0 0 !important;
+  }
+
+  .font-awesome-icon-stylization {
+    color: #ffffff !important;
+  }
+
+  .link-stylization {
+    text-decoration: none;
+    color: #2b3bd9
+  }
+
+  .link-stylization:hover {
+    text-decoration: none;
+    color: #4d5dfb
+  }
+
+  .card {
+    height: 370px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 400px;
+    background-color: rgba(0,0,0,0.5) !important;
+
+    .card-header {
+      h3 {
+        color: white;
+      }
+    }
+
+    .card-body {
+      .input-group-prepend span{
+        width: 50px;
+        background-color: #4d5dfb;
+        color: black;
+        border:0 !important;
+      }
+
+      .login_btn {
+        color: #ffffff;
+        background-color: #4d5dfb;
+        width: 100px;
+      }
+
+      .login_btn:hover {
+        color: #ffffff;
+        background-color: #2b3bd9;
+      }
+    }
+
+    .card-footer {
+      .links {
+        color: white;
+      }
+
+      .links a {
+        margin-left: 4px;
+      }
+    }
+  }
+}

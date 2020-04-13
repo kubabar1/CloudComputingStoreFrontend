@@ -1,0 +1,31 @@
+#device-page {
+  text-align: center;
+  margin: 30px 0;
+
+  #device-brand-model {
+
+  }
+
+  #device-image {
+    height: 300px;
+  }
+
+  #device-data {
+    display: block;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+
+    #device-rank {
+      font-size: 30px;
+    }
+
+    #device-price {
+
+    }
+
+    #device-buy-button {
+
+    }
+  }
+}
